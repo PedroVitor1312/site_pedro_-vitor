@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-gray-900;
+}
+
+/* Estilização personalizada para links de navegação */
+a {
+  @apply transition-colors duration-300;
+}
+
+/* Estilização para seções */
+section {
+  @apply overflow-hidden;
+}
+
+/* Animação para o botão de WhatsApp */
+@keyframes pulse-orange {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(249, 115, 22, 0);
+  }
+}
+
+.fixed.bottom-6.right-6 {
+  animation: pulse-orange 2s infinite;
+}
