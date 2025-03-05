@@ -21,8 +21,8 @@ const projects = [
   },
   {
     title: 'Landing Page',
-    description: 'Landing page moderna para uma campanha de marketing, com animações e SEO otimizado.',
-    image: 'https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=800',
+    description: 'Landing page profissional e moderna para a área odontológica, com animações envolventes, SEO otimizado e um design suave.',
+    image: '/public/portifolio_odondoto.jpeg',
     tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     github: '#',
     live: '#'
