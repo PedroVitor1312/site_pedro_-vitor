@@ -25,7 +25,7 @@ const projects = [
     image: '/portifolio_odondoto.jpeg',
     tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     github: '#',
-    live: '#'
+    live: 'https://doutoragiselly.netlify.app/'
   }
 ];
 
