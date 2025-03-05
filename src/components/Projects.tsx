@@ -22,7 +22,7 @@ const projects = [
   {
     title: 'Landing Page',
     description: 'Landing page profissional e moderna para a área odontológica, com animações envolventes, SEO otimizado e um design suave.',
-    image: '/public/portifolio_odondoto.jpeg',
+    image: '/portifolio_odondoto.jpeg',
     tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     github: '#',
     live: '#'
